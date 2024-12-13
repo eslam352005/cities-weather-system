@@ -1,0 +1,217 @@
+.head{
+    background-color: #1E202B;
+}
+.logo{
+    cursor: pointer;
+}
+.logo span{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.logo small{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #BFC1C8;
+}
+
+.links a{ 
+    border: 2px solid transparent;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.links a:hover{
+    border: 2px solid #009AD8;
+    color: #009AD8;
+    
+}
+.links .unique{
+    border: 2px solid #009AD8;
+color: #009AD8;
+padding: 5px 25px;
+border-radius: 30px;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+/* =============================== */
+
+
+.body-img{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.form .form-control{
+    position: relative;
+    padding: 20px 50px 20px 20px;
+    background-color: #1e202b;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.form-control:focus{
+    color: white;
+    box-shadow: none;
+}
+.form-control::placeholder{
+    color: #4B6975;
+}
+.form a{ 
+    position: absolute;
+    left: 91%;
+    top: -2.5%;
+    border: 2px solid #009AD8;
+    background-color: #009AD8;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ================================ */
+
+.mid{
+    background-color: #1E202B;
+    height: 31vh;
+}
+
+/* ============================== */
+
+
+.footer{
+    background-color: #262936;
+    position: relative;
+}
+
+.left .form-control{
+  
+    padding: 20px 50px 20px 20px;
+    background-color: #1e202b;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.form-control:focus{
+    color: white;
+    box-shadow: none;
+}
+.form-control::placeholder{
+    color: #4B6975;
+}
+.left button{ 
+    position: absolute;
+    left: 51%;
+    transform: translate(-50%);
+    top: 23%;
+    border: 2px solid #009AD8;
+    background-color: #009AD8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.left p{
+    font-family: "Roboto", sans-serif;
+    color: #BFC1C8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.right a{ 
+    text-decoration: none;
+    color: #157BD8;
+    position: relative;
+  z-index: 1;
+}
+.right a::after{
+content: '';
+position: absolute;
+border: 1px solid black;
+padding: 20px 20px;
+background-color: black;
+z-index: -1;
+left: -5%;
+top: -50%;
+border-radius: 50%;
+}
+.right a:hover::after{
+    color: white;
+    border: 1px solid #009AD8;
+    background-color: #009AD8;
+}
+.right a:hover{
+    color: white;
+}
+
+/* ===================== */
+
+
+
+.main-w{
+    background-color: #323544;
+}
+.notmain-w{
+    background-color: #262936;
+}
+
+.main-w p{ 
+    font-family: "Roboto", sans-serif;
+    color: #BFC1C8;
+    font-size: 30px;
+    font-weight: 400;
+}
+.main-w h4{ 
+    font-family: "Roboto", sans-serif;
+    color: #BFC1C8;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-w h3{ 
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+}
+.main-w h6{ 
+    font-family: "Roboto", sans-serif;
+    color: #009AD8;
+    font-size: 14px;
+    font-weight: 300;
+}
+.notmain-w h5{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.notmain-w p{
+    font-family: "Roboto", sans-serif;
+    color: #BFC1C8;
+    font-size: 16px;
+    font-weight: 300;
+}
+.notmain-w h6{
+    font-family: "Roboto", sans-serif;
+    color: #009AD8;
+    font-size: 14px;
+    font-weight: 300;
+}
